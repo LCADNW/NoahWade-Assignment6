@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour //no need for a different movement s
 
     private bool isGrounded = true; //grounded check, not initiated yet (greyed out)
 
+   
     void Update()
     {
         //movement time - help from ChatGPT
