@@ -20,15 +20,13 @@ public class Inventory : MonoBehaviour
     void Start()
     {
         ShowInventory();
+        items = new PickupType[2];
     }
 
     public void AddItem(PickupType pickupType)
     {
-        Debug.Log("Checking inventory before adding...");
-        for (int i = 0; i < items.Length; i++)
-        {
-            Debug.Log($"Slot {i} = {items[i]}");
-        }
+        
+      
 
         for (int i = 0; i < items.Length; i++)
         {
